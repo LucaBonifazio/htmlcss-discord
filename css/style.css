@@ -13,12 +13,15 @@ html{
 header{
     display: flex;
     justify-content: center;
-    width: 100%;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
 
 .container-top-link{
     max-width: 900px;
-    background-color: blue;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +32,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     flex: 1 0 0 ;
-    margin: 0 80px;
+    margin: 0 89px;
 }
 
 a{
@@ -37,4 +40,12 @@ a{
     text-decoration: none;
     margin: 10px;
     padding: 10px;
+}
+
+.top-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
