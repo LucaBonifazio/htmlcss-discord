@@ -4,3 +4,37 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-top-link{
+    max-width: 900px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-top-link{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 0 0 ;
+    margin: 0 80px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
