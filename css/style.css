@@ -107,7 +107,7 @@ header {
 	margin-bottom: 1.5rem;
 }
 
-.fa-arrow-down {
+.fa-chevron-down {
 	margin-right: .5em;
 }
 
@@ -151,16 +151,15 @@ header {
 /* footer */
 
 footer{
-    background-color: rgb(57, 57, 57);
-	/* probabilmente da togliere */
-	height: 600px;
+    background-color: rgb(57, 57, 57);	
 }
 
 .menu-footer{
-    height: 20em;
+    height: 30rem;
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
+	padding: 4em;
+	border-bottom: 1px solid rgb(62, 62, 150);
 }
 
 .menu-footer a{
@@ -169,7 +168,7 @@ footer{
 }
 
 .language{
-	
+	margin-right: 2em;
 }
 
 .language h2{
@@ -182,16 +181,30 @@ footer{
 	width: 2em;
 }
 
-.content-list{
-	list-style: none;
+.icon{
+	padding: .5em;
 }
 
-.menu-link .foot{
-	display: flex;
-	align-items: center;
-	height: 100%;
+.fa{
+	font-size: 2em;
 	color: white;
-	text-decoration: none;
-	white-space: nowrap;
+	
 }
+
+.content-list li{
+	list-style: none;
+	padding: .5em;
+}
+
+.menu-list{
+	color: #255EE9;
+}
+
+.login{
+	display: flex;
+	justify-content: space-around;
+	padding: 2rem;
+}
+
+
 
