@@ -10,85 +10,101 @@ html{
 
 /* header */
 
-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-image: url(../img/jumbo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
-.container-top-link{
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.container-small {
+	max-width: 600px;
+	margin: 0 auto;
 }
 
-.content-top-link{
-    display: flex;
-    justify-content: space-evenly;
-    flex: 1 0 0 ;
-    margin: 0 90px;
+.btn {
+	display: inline-block;
+	padding: 1em 1.5em;
+	border-radius: 10em;
+	text-decoration: none;
 }
 
-.content-top-link a{
-    color: white;
-    text-decoration: none;
-    margin: 10px;
-    padding: 10px;
+.btn-white {
+	background-color: white;
+	color: black;
 }
 
-.top-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    text-align: center;
-    max-width: 900px;
-    padding: 4rem;
+.btn-black {
+	background-color: black;
+	color: white;
 }
 
-h1{
-    font-size: 50px;
-    color: white;
+header {
+	background-color: #255EE9;
 }
 
-.top-text p{
-    padding: 2rem;
-    font-size: 20px;
-    color: white;
+.menu-top {
+	height: 4em;
 }
 
-.down-button-hd{
-    padding: 2rem;
+.menu-top ul {
+	display: flex;
+	height: 100%;
 }
 
-.button-hd{
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    border-radius: 50px;
+.menu-top li {
+	list-style: none;
+	display: flex;
+	align-items: center;
 }
 
-.access{
-    font-size: 1rem;
-    padding: 10px;
+.menu-top .menu-link {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 1em;
+	margin: 0 .3em;
+	color: white;
+	text-decoration: none;
+	white-space: nowrap;
 }
 
-.black-button{
-    background-color: black;
-    color: white;
-    padding: 15px;
-    font-size: 20px;
+.menu-top .menu-link:hover {
+	background-color: aqua;
 }
 
-.arrow-button{
-    padding: 15px;
-    font-size: 20px;
+.menu-top .logo {
+	margin-right: auto;
 }
+
+.menu-top .accedi {
+	margin-left: auto;
+}
+
+.header-background {
+	padding: 7rem 0 3rem;
+	background-image: url("../img/jumbo.png");
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header-content {
+	text-align: center;
+	color: white;
+}
+
+.header-content h1 {
+	margin-bottom: 2rem;
+}
+
+.header-content p {
+	margin-bottom: 1.5rem;
+}
+
+.fa-arrow-down {
+	margin-right: .5em;
+}
+
+/* main */
+
 
 
