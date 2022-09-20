@@ -37,6 +37,11 @@ html{
 	color: white;
 }
 
+.btn-blue {
+	background-color: rgb(37, 111, 172);
+	color: white;
+}
+
 header {
 	background-color: #255EE9;
 }
@@ -106,5 +111,37 @@ header {
 
 /* main */
 
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem auto;
+}
 
+.reverse{
+    flex-direction: row-reverse;
+}
 
+.col{
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-text h2{
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+}
+
+.big-img{
+    margin-bottom: 4rem;
+}
+
+.foot-section{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.foot-section h2{
+    padding: 2rem;
+}
