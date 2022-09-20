@@ -61,7 +61,7 @@ header {
 	align-items: center;
 }
 
-.menu-top .menu-link {
+.menu-link {
 	display: flex;
 	align-items: center;
 	height: 100%;
@@ -149,13 +149,14 @@ header {
 /* footer */
 
 footer{
-    background-color: black;
-    height: 500px;
+    background-color: rgb(57, 57, 57);
+	/* probabilmente da togliere */
+	height: 600px;
 }
 
 .menu-footer{
-    display: flex;
-    justify-content: space-around;
+    height: 4em;
+	display: flex;
 }
 
 .menu-footer ul {
@@ -169,13 +170,22 @@ footer{
 	align-items: center;
 }
 
-.menu-footer .menu-link {
+.menu-footer .menu-list{
 	display: flex;
 	align-items: center;
 	height: 100%;
 	padding: 0 1em;
 	margin: 0 .3em;
-	color: white;
+	color: rgb(16, 135, 204);
 	text-decoration: none;
 	white-space: nowrap;
+}
+
+.language a{
+	text-decoration: none;
+	color: white;
+}
+
+.language h2{
+	margin-bottom: 5rem;
 }
