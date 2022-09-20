@@ -8,7 +8,7 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-/* header */
+/* general */
 
 .container {
 	max-width: 1000px;
@@ -41,6 +41,8 @@ html{
 	background-color: rgb(37, 111, 172);
 	color: white;
 }
+
+/* header */
 
 header {
 	background-color: #255EE9;
@@ -155,37 +157,41 @@ footer{
 }
 
 .menu-footer{
-    height: 4em;
+    height: 20em;
 	display: flex;
-}
-
-.menu-footer ul {
-	display: flex;
-	height: 100%;
-}
-
-.menu-footer li {
-	list-style: none;
-	display: flex;
+	justify-content: space-around;
 	align-items: center;
 }
 
-.menu-footer .menu-list{
-	display: flex;
-	align-items: center;
-	height: 100%;
-	padding: 0 1em;
-	margin: 0 .3em;
-	color: rgb(16, 135, 204);
-	text-decoration: none;
-	white-space: nowrap;
-}
-
-.language a{
+.menu-footer a{
 	text-decoration: none;
 	color: white;
 }
 
-.language h2{
-	margin-bottom: 5rem;
+.language{
+	
 }
+
+.language h2{
+	margin-bottom: 1em;	
+	font-size: 2em;
+}
+
+.flag{
+	margin-right: .5em;
+	width: 2em;
+}
+
+.content-list{
+	list-style: none;
+}
+
+.menu-link .foot{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	color: white;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
