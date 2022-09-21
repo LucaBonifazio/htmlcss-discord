@@ -111,7 +111,7 @@ header {
 	margin-bottom: 1.5rem;
 }
 
-.fa-chevron-down {
+.fa-arrow-down {
 	margin-right: .5em;
 }
 
@@ -161,7 +161,7 @@ header {
 }
 
 .wave-reverse{
-	transform: rotateZ(180deg) rotatey(180deg);
+	transform: rotatez(180deg) rotatey(180deg);
 }
 
 /* footer */
@@ -202,9 +202,8 @@ footer{
 }
 
 .fa{
-	font-size: 2em;
+	font-size: 1.5em;
 	color: white;
-	
 }
 
 .content-list li{
@@ -214,6 +213,8 @@ footer{
 
 .menu-list{
 	color: #255EE9;
+	display: flex;
+	flex-direction: column;
 }
 
 .login{
