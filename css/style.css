@@ -42,6 +42,10 @@ html{
 	color: white;
 }
 
+p{
+	line-height: 1.6;
+}
+
 /* header */
 
 header {
@@ -153,7 +157,11 @@ header {
 }
 
 .wave{
-	margin: -0.5em;
+	display: block;
+}
+
+.wave-reverse{
+	transform: rotateZ(180deg) rotatey(180deg);
 }
 
 /* footer */
